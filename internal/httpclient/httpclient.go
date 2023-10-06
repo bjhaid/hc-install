@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/bjhaid/hc-install/version"
 	"github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/hc-install/version"
 )
 
 // NewHTTPClient provides a pre-configured http.Client

@@ -9,10 +9,10 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/hashicorp/hc-install/errors"
-	"github.com/hashicorp/hc-install/internal/src"
-	"github.com/hashicorp/hc-install/internal/validators"
-	"github.com/hashicorp/hc-install/product"
+	"github.com/bjhaid/hc-install/errors"
+	"github.com/bjhaid/hc-install/internal/src"
+	"github.com/bjhaid/hc-install/internal/validators"
+	"github.com/bjhaid/hc-install/product"
 )
 
 // AnyVersion finds an executable binary of any version

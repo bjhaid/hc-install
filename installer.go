@@ -9,9 +9,9 @@ import (
 	"io/ioutil"
 	"log"
 
+	"github.com/bjhaid/hc-install/errors"
+	"github.com/bjhaid/hc-install/src"
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/hc-install/errors"
-	"github.com/hashicorp/hc-install/src"
 )
 
 type Installer struct {

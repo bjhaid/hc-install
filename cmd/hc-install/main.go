@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/hashicorp/hc-install/version"
+	"github.com/bjhaid/hc-install/version"
 
 	"github.com/hashicorp/logutils"
 	"github.com/mitchellh/cli"

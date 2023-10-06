@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/bjhaid/hc-install/internal/testutil"
+	"github.com/bjhaid/hc-install/product"
+	"github.com/bjhaid/hc-install/src"
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/hc-install/internal/testutil"
-	"github.com/hashicorp/hc-install/product"
-	"github.com/hashicorp/hc-install/src"
 )
 
 var (

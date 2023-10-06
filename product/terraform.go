@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/bjhaid/hc-install/internal/build"
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/hc-install/internal/build"
 )
 
 var (

@@ -13,12 +13,12 @@ import (
 	"sort"
 	"time"
 
+	"github.com/bjhaid/hc-install/internal/pubkey"
+	rjson "github.com/bjhaid/hc-install/internal/releasesjson"
+	isrc "github.com/bjhaid/hc-install/internal/src"
+	"github.com/bjhaid/hc-install/internal/validators"
+	"github.com/bjhaid/hc-install/product"
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/hc-install/internal/pubkey"
-	rjson "github.com/hashicorp/hc-install/internal/releasesjson"
-	isrc "github.com/hashicorp/hc-install/internal/src"
-	"github.com/hashicorp/hc-install/internal/validators"
-	"github.com/hashicorp/hc-install/product"
 )
 
 type LatestVersion struct {

@@ -14,10 +14,10 @@ import (
 	"github.com/hashicorp/go-version"
 	"github.com/mitchellh/cli"
 
-	hci "github.com/hashicorp/hc-install"
-	"github.com/hashicorp/hc-install/product"
-	"github.com/hashicorp/hc-install/releases"
-	"github.com/hashicorp/hc-install/src"
+	hci "github.com/bjhaid/hc-install"
+	"github.com/bjhaid/hc-install/product"
+	"github.com/bjhaid/hc-install/releases"
+	"github.com/bjhaid/hc-install/src"
 )
 
 type InstallCommand struct {

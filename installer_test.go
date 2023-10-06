@@ -10,13 +10,13 @@ import (
 	"runtime"
 	"testing"
 
+	install "github.com/bjhaid/hc-install"
+	"github.com/bjhaid/hc-install/fs"
+	"github.com/bjhaid/hc-install/internal/testutil"
+	"github.com/bjhaid/hc-install/product"
+	"github.com/bjhaid/hc-install/releases"
+	"github.com/bjhaid/hc-install/src"
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/hc-install"
-	"github.com/hashicorp/hc-install/fs"
-	"github.com/hashicorp/hc-install/internal/testutil"
-	"github.com/hashicorp/hc-install/product"
-	"github.com/hashicorp/hc-install/releases"
-	"github.com/hashicorp/hc-install/src"
 )
 
 func TestInstaller_Ensure_installable(t *testing.T) {
