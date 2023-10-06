@@ -1,4 +1,4 @@
-module github.com/hashicorp/hc-install
+module github.com/bjhaid/hc-install
 
 go 1.18
 
